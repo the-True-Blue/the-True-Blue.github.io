@@ -14,3 +14,9 @@ h2 {
     font-size: 62pt;
     font-style: italic;
 }
+
+img {
+    position:absolute;
+    width: 400px;
+    height: 500px;
+}
