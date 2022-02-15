@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background: aquamarine;
+    text-align: center;
+}
+
+#demobox {
+    background-color: #cfc;
+    padding: 10px;
+    border: 1px solid green;
+}
