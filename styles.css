@@ -12,6 +12,10 @@ p {
 h2 {
     font-family: "Chalkduster", fantasy;   
     font-size: 62pt;
+<<<<<<< HEAD
     font-style: italic;
+=======
+    font-style: oblique;
+>>>>>>> 0e046d4a9fe8d4c204fb1c386a806c0c4a69cdd8
 }
 
