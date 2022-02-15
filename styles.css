@@ -1,6 +1,17 @@
 body {
-    margin: 0;
+    margin: 500;
     background: aquamarine;
-    text-align: center;
+}
+
+p {
+    background-color: #cfc;
+    padding: 10px;
+    border: 5px solid blue;
+}
+
+h2 {
+    font-family: "Chalkduster", fantasy;   
+    font-size: 62pt;
+    font-style: oblique;
 }
 
