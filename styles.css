@@ -18,7 +18,13 @@ body {
     margin-top: -40%;
 }
 
-.text_wrapper p {
+.p_wrapper {
+    background-color: #cfc;
+    padding: 10px;
+    border: 5px solid blue;
+}
+
+.p1_wrapper {
     background-color: #cfc;
     padding: 10px;
     border: 5px solid blue;
