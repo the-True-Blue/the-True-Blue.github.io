@@ -5,7 +5,8 @@ body {
 }
 
 .content_wrapper {
-    width: 80%;
+    width: 1024px;
+    height: 800px;
     margin: 4%, 10%, 5%, 10%;
 } 
 
@@ -17,7 +18,6 @@ body {
 }
 
 .text_wrapper p {
-    text-align: center;
     background-color: #cfc;
     padding: 10px;
     border: 5px solid blue;
