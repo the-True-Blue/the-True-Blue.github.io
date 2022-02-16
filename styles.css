@@ -11,6 +11,7 @@ body {
 
 
 .text_wrapper {
+    text-align: center;
     width: 100%;
     position: relative;
     margin-top: -40%;
