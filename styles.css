@@ -16,7 +16,7 @@ h2 {
 }
 
 img {
-    position:absolute;
-    width: 400px;
-    height:500px;
+    position:relative;
+    width: 600px;
+    height:800px;
 }
