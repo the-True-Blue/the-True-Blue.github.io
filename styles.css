@@ -1,6 +1,7 @@
 body {
     margin: 500;
     background: aquamarine;
+    overflow: hidden;
 }
 
 .content_wrapper {
