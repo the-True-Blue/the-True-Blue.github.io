@@ -33,7 +33,7 @@ body {
     border: 5px solid blue;
 }
 
-.content_wrapper .text_wrapper .h2_wrapper {
+.h2_wrapper {
     font-family: "Chalkduster", fantasy;   
     font-size: 62px;
     font-style: italic;
