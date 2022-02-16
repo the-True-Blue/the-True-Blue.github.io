@@ -13,20 +13,20 @@ body {
     width: 100%;
 } 
 
-.content_wrapper .text_wrapper {
+.text_wrapper {
     width: 80%;
     position: relative;
     margin-top: -40%;
 }
 
-.content_wrapper .text_wrapper .p_wrapper {
+.p_wrapper {
     font-family: "Chalkduster", fantasy; 
     background-color: #cfc;
     padding: 10px;
     border: 5px solid blue;
 }
 
-.content_wrapper .text_wrapper .p1_wrapper {
+.p1_wrapper {
     font-family: "Chalkduster", fantasy; 
     background-color: #cfc;
     padding: 10px;
@@ -40,8 +40,8 @@ body {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
     display: inline-block;
-    top: 40%;
+    top: 80%;
     left: 0;
-    right: 150px;
+    right: 350px;
 }
 
