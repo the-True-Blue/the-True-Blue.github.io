@@ -24,11 +24,11 @@ body {
     border: 5px solid blue;
 }
 
-.text_wrapper h2 {
+.h2_wrapper {
     font-family: "Chalkduster", fantasy;   
     font-size: 62px;
     font-style: italic;
-    top: -80%;
-    left: -30%;
+    top: 17px;
+    left: 150px;
 }
 
