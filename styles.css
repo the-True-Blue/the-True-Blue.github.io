@@ -6,6 +6,7 @@ body {
 .content_wrapper {
     width: 80%;
     margin: 4%, 10%, 5%, 10%;
+    align-items: center;
 } 
 
 .content_wrapper img {
@@ -36,7 +37,12 @@ body {
     font-family: "Chalkduster", fantasy;   
     font-size: 62px;
     font-style: italic;
-    top: 17px;
-    left: 150px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    height: 20vh;
+    width: 50%; 
+    top: 400px;
+    right: 550px;
 }
 
