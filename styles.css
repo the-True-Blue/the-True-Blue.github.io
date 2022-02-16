@@ -6,8 +6,7 @@ body {
 .text_wrapper p {
     background-color: #cfc;
     padding: 10px;
-    border: 5px solid blue;
-    position:absolute;
+    border: 5px sogitlid blue;
 }
 
 h2 {
@@ -16,7 +15,7 @@ h2 {
     font-style: italic;
 }
 
-img {
+.content_wrapper img {
     position:center;
     width: 1024px;
     height:800px;
