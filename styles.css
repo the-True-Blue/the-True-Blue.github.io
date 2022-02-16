@@ -1,14 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
-    margin: 500;
-    background: aquamarine;
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
     overflow: hidden;
 }
 
 .content_wrapper {
-    width: 100%;
+    width: 80%;
     margin: 4%, 10%, 5%, 10%;
 } 
 
+.content_wrapper img {
+    width: 100%;
+} 
 
 .text_wrapper {
     width: 100%;
