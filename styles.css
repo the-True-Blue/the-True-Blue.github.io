@@ -41,7 +41,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     display: inline-block;
     top: 500%;
-    left: 0;
-    right: 1050px;
+    text-align: right;
 }
 
