@@ -40,8 +40,9 @@ body {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
     display: inline-block;
-    top: 0;
+    position: relative;
+    top: 70%;
     text-align: right;
-    right: 75%;
+    right: 95%;
 }
 
