@@ -14,9 +14,10 @@ body {
 } 
 
 .heading_wrapper .h2_wrapper {
-    width: 100%;
-    position: relative;
-    margin-top: -10%;
+    width: 50%;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
 .text_wrapper {
@@ -46,8 +47,6 @@ body {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
     display: inline-block;
-    top: -100%;
     text-align: right;
-    right: 95%;
 }
 
