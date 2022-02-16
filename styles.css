@@ -40,8 +40,8 @@ body {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
     display: inline-block;
-    top: -50%;
+    top: -100%;
     text-align: right;
-    right: 75%;
+    right: 95%;
 }
 
