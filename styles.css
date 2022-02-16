@@ -7,14 +7,14 @@ body {
 .content_wrapper {
     width: 1024px;
     height: 800px;
-    margin: 4%, 10%, 5%, 10%;
+    margin: 0.64px, 1.6px, 0.8px, 1.6px;
 } 
 
 
 .text_wrapper {
-    width: 100%;
+    width: 16px;
     position: relative;
-    margin-top: -40%;
+    margin-top: 6.4px;
 }
 
 .text_wrapper p {
