@@ -4,29 +4,32 @@ body {
 }
 
 .content_wrapper {
-    width: 80%;
-    margin: 4%, 10%, 5%, 10%;
+    margin: 3%;
+    position: relative;
 } 
 
-.content_wrapper img {
-    width: 100%;
-}
-
 .text_wrapper {
-    width: 100%;
-    position: relative;
-    margin-top: -40%;
+    font-family: "Chalkduster", fantasy; 
+    position: absolute;
+    top: 17px;
+    left: 50px;
 }
 
-.text_wrapper p {
+.p_wrapper {
     background-color: #cfc;
     padding: 10px;
     border: 5px solid blue;
+    position: absolute;
+    top: 20px;
+    left: 10px;
 }
 
-.text_wrapper h2 {
-    font-family: "Chalkduster", fantasy;   
-    font-size: 62px;
-    font-style: italic;
+.p1_wrapper {
+    background-color: #cfc;
+    padding: 10px;
+    border: 5px solid blue; 
+    position: absolute;
+    top: 20px;
+    left: 10px;
 }
 
