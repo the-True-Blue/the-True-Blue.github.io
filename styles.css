@@ -11,13 +11,13 @@ body {
 
 
 .text_wrapper {
-    text-align: center;
     width: 100%;
     position: relative;
     margin-top: -40%;
 }
 
 .text_wrapper p {
+    text-align: center;
     background-color: #cfc;
     padding: 10px;
     border: 5px solid blue;
