@@ -5,8 +5,7 @@ body {
 }
 
 .content_wrapper {
-    width: 1920px;
-    height: 1080px;
+    width: 100%;
     margin: 4%, 10%, 5%, 10%;
 } 
 
