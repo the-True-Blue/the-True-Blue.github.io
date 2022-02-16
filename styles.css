@@ -13,7 +13,7 @@ body {
     width: 100%;
 } 
 
-.heading_wrapper {
+.heading_wrapper .h2_wrapper {
     width: 100%;
     position: relative;
     margin-top: -50%;
