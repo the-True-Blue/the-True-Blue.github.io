@@ -14,7 +14,13 @@
   </audio>
   
   <script>
-    document.addEventListener('click', function() { document.getElementById('my_audio').play() }, { once: true })
+    document.addEventListener(
+        "click",
+        function () {
+          document.getElementById("my_audio").play();
+        },
+        { once: true }
+      );
   </script>
     <div class="title">
       <img src="title.png" style="width: 350px" />
@@ -22,62 +28,62 @@
     <div>
       <a href="page1.html" class="star glow star1"
         ><img
-          src="star.png"
+          src="star1.png"
           alt="HTML tutorial"
-          style="width: 20px; height: 20px"
+          style="width: 70px; height: 70px"
       /></a>
     </div>
     <div>
       <a href="page2.html" class="star glow star2">
         <img
-          src="star.png"
+          src="star1.png"
           alt="HTML tutorial"
-          style="width: 20px; height: 20px"
+          style="width: 70px; height: 70px"
         />
       </a>
     </div>
     <div>
       <a href="page3.html" class="star glow star3">
         <img
-          src="star.png"
+          src="star1.png"
           alt="HTML tutorial"
-          style="width: 20px; height: 20px"
+          style="width: 70px; height: 70px"
         />
       </a>
     </div>
     <div>
       <a href="page4.html" class="star glow star4">
         <img
-          src="star.png"
+          src="star1.png"
           alt="HTML tutorial"
-          style="width: 20px; height: 20px"
+          style="width: 70px; height: 70px"
         />
       </a>
     </div>
     <div>
       <a href="page5.html" class="star glow star5">
         <img
-          src="star.png"
+          src="star1.png"
           alt="HTML tutorial"
-          style="width: 20px; height: 20px"
+          style="width: 70px; height: 70px"
         />
       </a>
     </div>
     <div>
       <a href="page6.html" class="star glow star6">
         <img
-          src="star.png"
+          src="star1.png"
           alt="HTML tutorial"
-          style="width: 20px; height: 20px"
+          style="width: 70px; height: 70px"
         />
       </a>
     </div>
     <div>
       <a href="page7.html" class="star glow star7">
         <img
-          src="star.png"
+          src="star1.png"
           alt="HTML tutorial"
-          style="width: 20px; height: 20px"
+          style="width: 70px; height: 70px"
         />
       </a>
     </div>
@@ -1288,5 +1294,39 @@
       <div class="moon"></div>
       <div class="asteroid"></div>
     </div>
+
+     <!-- modal iframe -->
+     <div class="modal" id="modal1">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <iframe
+          src="https://example.com"
+          id="modal-iframe"
+          frameborder="0"
+          width="100%"
+          height="100%"
+        ></iframe>
+      </div>
+    </div>
+
+    <script>
+      var linkEls = document.querySelectorAll("a");
+      var modalEl = document.getElementById("modal1");
+      var iframe = document.getElementById("modal-iframe");
+      linkEls.forEach(function (el) {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          modal1.classList.add("active");
+          iframe.src = el.href;
+          return false;
+        });
+      });
+      modalEl
+        .querySelector(".modal-close")
+        .addEventListener("click", function () {
+          modal1.classList.remove("active");
+        });
+    </script>
+
   </body>
 </html>

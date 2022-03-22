@@ -1,7 +1,3 @@
-*{
-    background-color: coral;
-}
-
 * {
   background-color: coral;
 }
@@ -41,18 +37,18 @@
 .img1{
   background-position: center;
   border-radius: 100%;
-  background-image: url('likes.JPG');
+  background-image: url('../Images/likes.JPG');
   border: 30px solid #0bace2;
 }
 .img2{
   background-position: center;
   border-radius: 100%;
-  background-image: url('likes.JPG');
+  background-image: url('../Images/likes.JPG');
   border: 30px solid #0bace2;
 }
 
 .img3{
-  background-image: url('likes.JPG');
+  background-image: url('../Images/likes.JPG');
   top: 30%;
   left: 78%;
   width: 50%;
@@ -65,7 +61,7 @@ a {
 }
 
 .container:hover .img1 {
-  background-image: url('sketchcollage.JPG');
+  background-image: url('../Images/sketchcollage.JPG');
   opacity: 0;
   transition: all 4s ease-in;
   background-color: rgba(50,50,50,0.5);
@@ -74,7 +70,7 @@ a {
   -webkit-transform: scale(1.2);
 }
 .container:hover .img2 {
-  background-image: url('digitalartcollage.JPG');
+  background-image: url('../Images/digitalartcollage.JPG');
   opacity: 0;
   transition: all 4s ease-in;
   background-color: rgba(50,50,50,0.5);
@@ -84,7 +80,7 @@ a {
 }
 
 .container:hover .img3 {
-  background-image: url('streaming.JPG');
+  background-image: url('../Images/streaming.JPG');
   opacity: 0;
   transition: all 4s ease-in;
   background-color: rgba(50,50,50,0.5);
