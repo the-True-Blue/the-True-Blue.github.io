@@ -61,18 +61,44 @@ header {
 }
 
 .icon-banner{
-    background: #ae00ff;
-    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
-    left: 500px;
-    width: 200px; 
-    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.icon-banner h1{
+    width: 250px;
+    font-size: 2rem;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000000;
+    mix-blend-mode: screen;
+}
+
+.icon-banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .icon-banner .fa-gamepad{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    font-size: 6rem;
 }
 
 ul.navbar{
@@ -147,36 +173,3 @@ ul.navbar li a:hover:not(.active) {
     height: 100%;
 }
 
-
-.banner {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 3;
-  }
-    video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    
-    h2 {
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      font-weight: 400;
-      font-size: 28vw;
-      text-align: center;
-      text-transform: uppercase;
-      background-color: #ffffff;
-      mix-blend-mode: screen;
-    }
