@@ -66,35 +66,68 @@ header {
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 20vh;
     overflow: hidden;
+    margin-top: 76px;
+    background: #000;
 }
-
+.icon-banner i{
+    color:#ffffff;
+}
 .icon-banner h1{
-    width: 250px;
-    font-size: 2rem;
+    width: 850px;
+    font-size: 5rem;
     margin-left: 10px;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     height: 100%;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     background-color: #000000;
-    mix-blend-mode: screen;
 }
-
+.icon-banner .blend-text{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    mix-blend-mode: multiply;
+    padding-left: 20px;
+    margin: 0;
+}
 .icon-banner video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 20%;
     height: 100%;
+    z-index: 1;
+}
+.icon-banner video:nth-child(2){
+    left: 0;
+}
+.icon-banner video:nth-child(3){
+    left: 20%;
+}
+.icon-banner video:nth-child(4){
+    left: 43%;
+}
+.icon-banner video:nth-child(5){
+    left: 59%;
+}
+.icon-banner video:nth-child(6){
+    left: 80%;
 }
 
 .icon-banner .fa-gamepad{
