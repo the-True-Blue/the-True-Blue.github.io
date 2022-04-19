@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Design, Art and More</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/5567ee3541.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/5567ee3541.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+      integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
+
   <body>
     <div class="container">
       <div class="gradient">
@@ -71,21 +104,190 @@
     </div>
 
     <!--logo and header section ends here-->
-    <section class="section-1">
-      <div class="section-1-wrapper">
-        <h1> ITCH.IO GAME PORTFOLIO </h1>
-        <br>
-
+    <section class="section_parallax1 bg_blue">
+      <div class="section_parallax1-content">
+        <img src="./images/stars.png" alt="image" id="stars" />
+        <img src="./images/moon.png" alt="image" id="moon" />
+        <img
+          src="./images/mountains_behind.png"
+          alt="image"
+          id="mountains_behind"
+        />
+        <h1 id="text">Welcome</h1>
+        <img
+          src="./images/mountains_front.png"
+          alt="image"
+          id="mountains_front"
+        />
+      </div>
+      <div class="section-sub">
+        <h2>itch.io games portfolio</h2>
+        <br />
         <div class="section-1-img">
-          <a href="#"><div class="img img-1"></div></a>
-          <a href="#"><div class="img img-2"></div></a>
-          <a href="#"><div class="img img-3"></div></a>
-          <a href="#"><div class="img img-4"></div></a>
+          <a href="https://juju136.itch.io/rileys-big-move"
+            ><div class="img img-1"></div>
+          </a>
+          <a href="https://mariasandu.itch.io/platformer"
+            ><div class="img img-2"></div>
+          </a>
+        </div>
+
+        <!--section one ends here-->
+        <div class="char_model">
+          <h1>3D Character Modeling</h1>
+          <div class="owl-carousel owl-theme" id="carousel1">
+            <div class="item">
+              <a
+                href="./3D_model/Front.png"
+                class="lightbox-link"
+                data-title="Front"
+              >
+                <img src="./3D_model/Front.png" alt="image" />
+              </a>
+            </div>
+            <div class="item">
+              <a
+                href="./3D_model/Perspective Back.jpg"
+                class="lightbox-link"
+                data-title="Perspective Back"
+              >
+                <img src="./3D_model/Perspective Back.jpg" alt="image" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="./3D_model/Side.jpg" class="lightbox-link" data-title="Side">
+                <img src="./3D_model/Side.jpg" alt="image" />
+              </a>
+            </div>
+          </div>
+          <h1>3D Interior Space</h1>
+          <div class="owl-carousel owl-theme" id="carousel2">
+            <div>
+              <a
+                href="./3d_space/space1.png"
+                class="lightbox-link"
+                data-title="space1"
+              >
+                <img src="./3d_space/space1.png" alt="image" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="./3d_space/space2.png"
+                class="lightbox-link"
+                data-title="space2"
+              >
+                <img src="./3d_space/space2.png" alt="image" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="./3d_space/space3.png"
+                class="lightbox-link"
+                data-title="space3"
+              >
+                <img src="./3d_space/space3.png" alt="image" />
+              </a>
+            </div>
+          </div>
+          <h1>Digital Art</h1>
+          <div class="owl-carousel owl-theme" id="carousel3">
+            <div>
+              <a
+                href="./2DArt/A room with a view.png"
+                class="lightbox-link"
+                data-title="A room with a view"
+              >
+                <img src="./2DArt/A room with a view.png" alt="image" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="./2DArt/Another World.png"
+                class="lightbox-link"
+                data-title="Another World"
+              >
+                <img src="./2DArt/Another World.png" alt="image" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="./2DArt/Concentration 1.png"
+                class="lightbox-link"
+                data-title="Concentration 1"
+              >
+                <img src="./2DArt/Concentration 1.png" alt="image" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="./2DArt/Digital Altered Value.png"
+                class="lightbox-link"
+                data-title="Digital Altered Value"
+              >
+                <img src="./2DArt/Digital Altered Value.png" alt="image" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="./2DArt/Merging of Galaxies 5.png"
+                class="lightbox-link"
+                data-title="Merging of Galaxies 5"
+              >
+                <img src="./2DArt/Merging of Galaxies 5.png" alt="image" />
+              </a>
+            </div>
+            <div>
+              <a
+                href="./2DArt/Perspective Revised.png"
+                class="lightbox-link"
+                data-title="Perspective Revised"
+              >
+                <img src="./2DArt/Perspective Revised.png" alt="image" />
+              </a>
+            </div>
+            <div>
+              <a href="./2DArt/Sweet.png" class="lightbox-link" data-title="Sweet">
+                <img src="./2DArt/Sweet.png" alt="image" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Section 2 starts here -->
+    <div class="section-2">
+      <h1> About Me </h1>
+      <div class="section-2-wrapper">
+          <div class="description"></div>
+          <div class="description-desc">
+            <p>
+              I am excited and eager to travel the world to experience different cultures and environments. I want to spread my knowledge of Game 
+              Design from a Computer Engineer's perspective through this website as I build my portfolio. All aspects of Game Design on a learning 
+              scale include: 3D Animation, 3D Modeling, Programming, Game Engines, Game Art and Project Management. This is the foundation of my 
+              portfolio.
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+      integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
   </body>
-  <main>
-  </main>
 </html>
