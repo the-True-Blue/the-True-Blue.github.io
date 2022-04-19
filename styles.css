@@ -1,363 +1,319 @@
 /* index.html styles*/
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-body{
-    background: #03054b;
-    font-family: 'Poppins', sans-serif;
-    height: 350vh;
+body {
+  background: #03054b;
+  font-family: "Poppins", sans-serif;
+  height: 350vh;
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 header {
-    width: 100%;
-    height: 10vh;
-    background-position: rgba(0,0,0,0.5);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
+  width: 100%;
+  height: 10vh;
+  background-position: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
 }
 
 .navi {
-    background-position: rgba(0,0,0,0.5);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
-    left: 790px;
+  background-position: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
 }
 
-.logo{
-    width: 400px;
-    height: 10vh;
-    background: #0026ff;
-    display: flex;
-    align-items: center;
-    color:#fff;
-    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
-    padding:16px;
-    line-height: 1.3rem;
-    position: absolute;
+.logo {
+  width: 400px;
+  height: 10vh;
+  background: #0026ff;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+  padding: 16px;
+  line-height: 1.3rem;
+  position: absolute;
 }
 
-
-.logo p{
-    width: 1300px;
-    margin-left: 10px;
-    font-size: 20px;
+.logo p {
+  width: 1300px;
+  margin-left: 10px;
+  font-size: 20px;
 }
 
-.icon-banner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: 20vh;
-    overflow: hidden;
-    top: 2.9%;
-    background: #000;
+.icon-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  top: 2.9%;
+  background: #000;
+  margin-bottom: 60px;
 }
-.icon-banner i{
-    color:#ffffff;
+.icon-banner i {
+  color: #ffffff;
 }
-.icon-banner h1{
-    width: 850px;
-    font-size: 5rem;
-    margin-left: 10px;
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #000000;
+.icon-banner h1 {
+  width: 850px;
+  font-size: 5rem;
+  margin-left: 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #000000;
 }
-.icon-banner .blend-text{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height: 100%;
-    background: #000;
-    display: flex;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    mix-blend-mode: multiply;
-    padding-left: 20px;
-    margin: 0;
+.icon-banner .blend-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  mix-blend-mode: multiply;
+  padding-left: 20px;
+  margin: 0;
 }
 .icon-banner video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20%;
-    height: 100%;
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 1;
 }
-.icon-banner video:nth-child(2){
-    left: 0;
+.icon-banner video:nth-child(2) {
+  left: 0;
 }
-.icon-banner video:nth-child(3){
-    left: 20%;
+.icon-banner video:nth-child(3) {
+  left: 20%;
 }
-.icon-banner video:nth-child(4){
-    left: 43%;
+.icon-banner video:nth-child(4) {
+  left: 43%;
 }
-.icon-banner video:nth-child(5){
-    left: 59%;
+.icon-banner video:nth-child(5) {
+  left: 59%;
 }
-.icon-banner video:nth-child(6){
-    left: 80%;
-}
-
-.icon-banner .fa-gamepad{
-    font-size: 6rem;
+.icon-banner video:nth-child(6) {
+  left: 80%;
 }
 
-ul.navbar{
-    width: 800px; 
-    height: 10vh;
-    display: flex;
-    list-style: none;
-    background: #0026ff;
-    outline: none;
-    border: none;
-    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
-    padding-left: 150px;
-    padding-top: 25px;
+.icon-banner .fa-gamepad {
+  font-size: 6rem;
 }
 
-ul.navbar li{
-    width: 150px;
+ul.navbar {
+  max-width: 800px;
+  height: 10vh;
+  display: flex;
+  list-style: none;
+  background: #0026ff;
+  outline: none;
+  border: none;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  padding-left: 150px;
+  padding-top: 25px;
+  margin: 0 0 0 auto;
+}
+
+ul.navbar li {
+  width: 150px;
 }
 
 ul.navbar li a {
-    text-decoration: none;
-    color: #ffff;
-    font-weight: 800;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 800;
 }
 
-
 ul.navbar li a:hover:not(.active) {
-    color:#00ffff
+  color: #00ffff;
 }
 
 .wrapper {
-    width:100%;
-    height:100vh;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    position:relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
-
 
 .wrapper video {
-    object-fit: cover;
-    width:100%;
-    height:100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-
-.gradient{
-    width: 100%;
-    position:relative;
+.gradient {
+  width: 100%;
+  position: relative;
 }
 
-.gradient::after{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background-image: linear-gradient(rgba(0, 153, 255, 0.829),rgba(221, 0, 203, 0.39));
+.gradient::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: linear-gradient(
+    rgba(0, 153, 255, 0.829),
+    rgba(221, 0, 203, 0.39)
+  );
 }
 
-.title-container{
-    width: 100%;
-    height: 100vh;
-    position: relative;
+.title-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
 .title-container video {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* logo and header section ends here*/
 
 .bg_blue {
-    background: linear-gradient(#2b1055, #7597de);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  .section_parallax1 {
-    font-family: "Poppins", sans-serif;
-  }
-  .section_parallax1-content {
-    height: 100vh;
-    position: relative;
-    padding: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  .section_parallax1-content > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    pointer-events: none;
-  }
-  
-  .section_parallax1 img#moon {
-    mix-blend-mode: screen;
-    object-fit: contain;
-    transform: scale(1.2);
-  }
-  .section_parallax1 img#mountains_front {
-    z-index: 10;
-  }
-  .section_parallax1 #text {
-    position: absolute;
-    color: #fff;
-    white-space: nowrap;
-    font-size: 7.5em;
-    z-index: 9;
-    right: -300px;
-  }
-  .section-sub {
-    position: relative;
-    padding: 100px;
-    background: #1c0522;
-    font-family: "Poppins", sans-serif;
-    color: #fff;
-  }
-  .section_parallax1 .section-sub::before {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(to top, #1c0522, transparent);
-    z-index: 1000;
-  }
-  .section-sub h2 {
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    color: #fff;
-  }
-  
-  .section-1-img {
-    display: flex;
-  }
-  
-  .section-1-img .img {
-    width: 100px;
-    height: 130px;
-    background: url("./Images/Riley_cover.png");
-    background-size: cover;
-    background-position: center;
-    margin-right: 10px;
-    border-radius: 10px;
-  }
-  
-  .section-1-img .img-2 {
-    background: url("./Images/snowball_cover.gif");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .img:hover {
-    transform: translateY(-10px);
-  }
-  
-  /* section one ends here */
-  
-  .char_model h1 {
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    margin: 30px 0;
-    color: #fff;
-  }
-  
-  .char_model .owl-carousel {
-    margin: 50px 0 120px;
-  }
-  .char_model .owl-carousel .owl-nav {
-    display: block !important;
-  }
-  
-  
-  /* section 2 starts here*/
-  
-  .section-2{
-    width: 100%;
-    height: 80vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/section2_background.PNG);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  
-  .section-2 h1{
-    font-size: 2rem;
-    color: #fff;
-    text-align: center;
-    font-weight: 400;
-  }
-  
-  .section-2-wrapper{
-    display: flex;
-    min-width: none;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-  }
-  
-  .description{
-    width: 250px;
-    height: 200px;
-    background: url(./Images/pfp.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    padding-right: 50px;
-  }
-  
-  .description-desc{
-    width: 450px;
-    height: 280px;
-    background: rgba(0, 0, 0, 0.767);
-    padding: 30px;
-    color: #fff;
-    margin-right: 10px;
-  }
+  background: linear-gradient(#2b1055, #7597de);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.section_parallax1 {
+  font-family: "Poppins", sans-serif;
+}
+.section_parallax1-content {
+  height: 100vh;
+  position: relative;
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.section_parallax1-content > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.section_parallax1 img#moon {
+  mix-blend-mode: screen;
+  object-fit: contain;
+  transform: scale(1.2);
+}
+.section_parallax1 img#mountains_front {
+  z-index: 10;
+}
+.section_parallax1 #text {
+  position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 7.5em;
+  z-index: 9;
+  right: -300px;
+}
+.section-sub {
+  position: relative;
+  padding: 100px;
+  background: #1c0522;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.section_parallax1 .section-sub::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #1c0522, transparent);
+  z-index: 1000;
+}
+.section-sub h2 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.section-1-img {
+  display: flex;
+}
+
+.section-1-img .img {
+  width: 100px;
+  height: 130px;
+  background: url("./images/Riley_cover.png");
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.section-1-img .img-2 {
+  background: url("./images/snowball_cover.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.img:hover {
+  transform: translateY(-10px);
+}
+
+/* section one ends here */
+
+.char_model h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  margin: 30px 0;
+  color: #fff;
+}
+
+.char_model .owl-carousel {
+  margin: 50px 0 120px;
+}
+.char_model .owl-carousel .owl-nav {
+  display: block !important;
+}
