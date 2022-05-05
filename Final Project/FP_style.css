@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 6px;
+  user-select: none;
+}
+.comic-book {
+  overflow: hidden;
+  cursor: pointer;
+}
+.comic-book img {
+  max-height: 80vh;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.comic-book .page {
+  position: relative;
+  margin: 10px auto;
+  max-width: 80%;
+  display: none;
+}
+.comic-book .page.active {
+  display: block;
+}
+.comic-book .panel:nth-child(1) {
+  position: static;
+}
+
+.comic-book .panel:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+}
+#btn-reset {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.3rem;
+  background: transparent;
+  border-radius: 3px;
+  display: inline-block;
+  border: 2px solid rgb(68, 68, 68);
+  cursor: pointer;
+  transition: all 0.25s ease 0s;
+}
+#btn-reset:hover {
+  transform: scale(1.05);
+}
+.comic-book .panel.active {
+  -webkit-animation: slide-in-fwd-center 0.8s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-fwd-center 0.8s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
