@@ -3918,6 +3918,8 @@ button:hover {
   color: #000;
   box-sizing: content-box;
   font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  font-weight: 800;
 }
 .button * {
   box-sizing: content-box;
