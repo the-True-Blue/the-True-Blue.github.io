@@ -31,6 +31,7 @@ $(document).ready(function () {
     loop: true,
     margin: 20,
     nav: true,
+    dots: false,
     autoplay: true,
     responsive: {
       0: {
